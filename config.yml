@@ -1,0 +1,629 @@
+Settings:
+  Prefix: '<dark_gray>[<green>CrazyEnchantments<dark_gray>]: '
+  Toggle-Metrics: true
+  Player-Info-Backup-Message: true
+  Reset-Players-Max-Health: true
+  Refresh-Potion-Effects-On-World-Change: false
+  InvName: '&6&lМагазин &b&lCrazy Enchantments'
+  Enchantment-Book-Item: BOOK
+  Enchantment-Book-Glowing: true
+  GUISize: 54
+  CESuccessOverride: -1
+  CEFailureOverride: -1
+  EnchantmentBookLore:
+  - '&7Drag book and drop on Item.'
+  - '&7Right click for more Info.'
+  - ''
+  - '%description%'
+  - ''
+  - '&4%destroy_rate%% Destroy Chance'
+  - '&a%success_rate%% Success Chance'
+  LostBook:
+    Item: BOOK
+    Model:
+      Namespace: ''
+      Key: ''
+    Name: '&8&l&nA Lost %category%&8&l&n Book'
+    Lore:
+    - '&7This book has been lost for centuries'
+    - '&7It is said to be an enchantment book from %category%'
+    - '&7But you must clean it off to find out what kind it is.'
+    - '&7&l(&6&l!&7&l) &7Right Click to clean off.'
+  Scrambler:
+    Item: SUNFLOWER
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Name: '&e&lThe Grand Scrambler'
+    Lore:
+    - '&7The &e&lThe Grand Scrambler &7will allow'
+    - '&7you to re-roll the destroy and success rates.'
+    - '&7Drag and drop it on an enchantment book'
+    - '&7to get a new destroy and success rate.'
+    GUI:
+      Name: '&8Rolling the &eScrambler'
+      Toggle: true
+      Pointer:
+        Item: REDSTONE_TORCH
+        Model:
+          Namespace: ''
+          Key: ''
+        Name: '&c&lPointer'
+        Lore:
+        - '&7Whatever percents the item lands on'
+        - '&7will be the new percents on your book.'
+    InGUI: false
+    Slot: 1
+    GUIName: '&e&lThe Grand Scrambler'
+    GUILore:
+    - '&7The &e&lThe Grand Scrambler &7will allow'
+    - '&7you to re-roll the destroy and success rates.'
+    - '&7Drag and drop it on an enchantment book'
+    - '&7to get a new destroy and success rate.'
+    - ''
+    - '&eCost: &e&l$800'
+  Slot_Crystal:
+    InGUI: false
+    Slot: 14
+    Item: EMERALD
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Name: '&5&lSlot &b&lCrystal'
+    Lore:
+    - '&7A rare crystal that is said to'
+    - '&7increase the amount of enchants'
+    - '&7that can be added onto an item.'
+    - ''
+    - '&7&l(&6&l!&7&l) &7Drag and drop on an item.'
+    GUIName: '&5&lSlot &b&lCrystal'
+    GUILore:
+    - '&7A rare crystal that is said to'
+    - '&7increase the amount of enchants'
+    - '&7that can be added onto an item.'
+    - ''
+    - '&eCost: &e&l$500'
+  GKitz:
+    InGUI: false
+    Enabled: true
+    Slot: 1
+    Item: DIAMOND_CHESTPLATE
+    Glowing: true
+    Name: '&c&lGKitz'
+    Lore:
+    - '&b>>&7&nClick to open&b<<'
+  ProtectionCrystal:
+    InGUI: false
+    Slot: 1
+    Item: EMERALD
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Protected: '&6Ancient Protection'
+    Lose-Protection-On-Death: true
+    Chance:
+      Toggle: false
+      Success-Chance: 75
+    Name: '&5&lProtection &b&lCrystal'
+    Lore:
+    - '&7A rare crystal that is said to'
+    - '&7protect items from getting lost'
+    - '&7while the owners away in the after life.'
+    - ''
+    - '&7&l(&6&l!&7&l) &7Drag and drop on an item.'
+    GUIName: '&5&lProtection &b&lCrystal'
+    GUILore:
+    - '&7A rare crystal that is said to'
+    - '&7protect items from getting lost'
+    - '&7while the owners away in the after life.'
+    - ''
+    - '&eCost: &e&l$500'
+  BlackSmith:
+    InGUI: true
+    Slot: 24
+    Item: ANVIL
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: false
+    Name: '&7&lThe &b&lBlack &9&lSmith'
+    Lore:
+    - '&b>>&7&nClick to open&b<<'
+    GUIName: '&8&lThe Black Smith'
+    Results:
+      Item:
+        Type: BARRIER
+        Model:
+          Namespace: ''
+          Key: ''
+      None: '&c&lNo Results'
+      Not-Found-Lore:
+      - '&7No results could be found.'
+      - '&7Please put in two books of'
+      - '&7the same enchantment and level.'
+      - '&7Or put in two items to combined'
+      - '&7the enchantments on them.'
+      Found: '&c&lCost: &6&l%cost%XP'
+    Transaction:
+      Currency: XP_Level
+      Costs:
+        Power-Up: 5
+        Add-Enchantment: 3
+        Book-Upgrade: 5
+  Tinker:
+    InGUI: true
+    Slot: 22
+    Item: NETHER_STAR
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: false
+    Name: '&7&lThe &b&lCrazy &9&lTinkerer'
+    Lore:
+    - '&b>>&7&nClick to open&b<<'
+  Info:
+    InGUI: true
+    Slot: 23
+    Item: COMPASS
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Name: '&eInfo on the Enchantments'
+    Lore:
+    - '&b>>&7&nClick to view&b<<'
+  Dust:
+    MysteryDust:
+      Item: GUNPOWDER
+      Model:
+        Namespace: ''
+        Key: ''
+      Name: '&7Mystery Dust'
+      Lore:
+      - '&a1-%percent%% &7will be on a'
+      - '&aMagical AngelDust &7or &eMagical Fixing &7Dust'
+      - '&7&l(&6&l!&7&l) &7Right click'
+      Firework:
+        Toggle: true
+        Colors: Black, Gray, Lime
+      Dust-Toggle:
+        Success: true
+        Destroy: true
+        Failed: true
+      PercentRange:
+        Max: 30
+    SuccessDust:
+      InGUI: true
+      GUIName: '&aMagical Angel Dust'
+      GUILore:
+      - '&eCost: &a&l$500'
+      - '&7Dust allows you to bring'
+      - '&7up your &aSuccess Rate&7.'
+      Slot: 25
+      Item: SUGAR
+      Model:
+        Namespace: ''
+        Key: ''
+      Name: '&aMagical Angel Dust'
+      Lore:
+      - '&a+%percent%% Success Rate'
+      - '&7Apply to an Enchantment Book to'
+      - '&7Increase the Success Rate by &e%percent%%'
+      PercentRange:
+        Max: 30
+        Min: 2
+    DestroyDust:
+      InGUI: true
+      GUIName: '&eMagical Fixing Dust'
+      GUILore:
+      - '&eCost: &a&l$500'
+      - '&7Dust allows you to bring'
+      - '&7down your &4Destroy Rate&7.'
+      Slot: 34
+      Item: REDSTONE
+      Model:
+        Namespace: ''
+        Key: ''
+      Name: '&eMagical Fixing Dust'
+      Lore:
+      - '&c-%percent%% Destroy Rate'
+      - '&7Apply to an Enchantment Book to'
+      - '&7Decrease the Destroy Rate by &e%percent%%'
+      PercentRange:
+        Max: 10
+        Min: 2
+    FailedDust:
+      Item: GUNPOWDER
+      Model:
+        Namespace: ''
+        Key: ''
+      Name: '&7Failed Dust'
+      Lore:
+      - '&7This dust has failed.'
+      - '&7It is now useless unless you'
+      - '&7needed to make TNT or a throwable potion.'
+  BlackScroll:
+    Item: INK_SAC
+    Model:
+      Namespace: ''
+      Key: ''
+    Name: '&8&l&nBlack Scroll'
+    Item-Lore:
+    - '&7Have a custom enchantment you don''t want?'
+    - '&7Drag and drop this on an item with a custom enchantment'
+    - '&7and it will remove a random enchantment for you.'
+    - '&7&l(&6&l!&7&l) &7Only works on Custom Enchantments.'
+    Chance-Toggle: false
+    Chance: 75
+    InGUI: true
+    GUIName: '&7Black Scroll'
+    Glowing: false
+    Slot: 21
+    Lore:
+    - '&eCost: &a&l$1000'
+    - '&7Black Scrolls allow you to'
+    - '&7take off random enchantments.'
+    SuccessChance:
+      Max: 75
+      Min: 35
+    DestroyChance:
+      Max: 25
+      Min: 5
+  WhiteScroll:
+    Item: PAPER
+    Model:
+      Namespace: ''
+      Key: ''
+    Name: '&e&lWhite Scroll'
+    Item-Lore:
+    - '&7Want to protect an item from a book''s destroy rate?'
+    - '&7Drag and drop this on an enchant-able item'
+    - '&7and it will protect the item from the destroy rate.'
+    InGUI: true
+    GUIName: '&7White Scroll'
+    Glowing: false
+    Slot: 30
+    Lore:
+    - '&eCost: &a&l$2000'
+    - '&7White Scrolls allow you to'
+    - '&7protect items from breaking.'
+    ProtectedName: '&b&lPROTECTED'
+  TransmogScroll:
+    Item: QUARTZ
+    Model:
+      Namespace: ''
+      Key: ''
+    Name: '&d&lTransmog Scroll'
+    Item-Lore:
+    - '&7This scroll allows you to organize'
+    - '&7your enchantments and tell you how many'
+    - '&7enchantments you currently have on the item.'
+    InGUI: false
+    GUIName: '&dTransmog Scroll'
+    Glowing: false
+    Slot: 30
+    Lore:
+    - '&eCost: &a&l$200'
+    - '&7This scroll allows you to organize'
+    - '&7your enchantments and tell you how many'
+    - '&7enchantments you currently have on the item.'
+    Amount-of-Enchantments: ' &7[&6&n%amount%&7]'
+    Amount-Toggle: true
+    Count-Vanilla-Enchantments: true
+    Lore-Order:
+    - CE_Enchantments
+    - Protection
+    - Normal_Lore
+    Add-Blank-Lines: true
+  EnchantmentOptions:
+    MaxAmountOfEnchantmentsToggle: true
+    Limit:
+      Enable-SlotCrystal: true
+      Check-Perms: false
+      Default-Limit: 3
+      Default-Base-Limit: 0
+      Change-On-Fail: true
+    IncludeVanillaEnchantments: false
+    Enchant-Stacked-Items: false
+    MaxRageLevel: 4
+    Break-Rage-On-Damage: true
+    Rage-Boss-Bar: false
+    Rage-Increase: 0.1
+    Right-Click-Book-Description: true
+    UnSafe-Enchantments: true
+    Blast-Full-Durability: true
+    VeinMiner-Full-Durability: true
+    TreeFeller-Full-Durability: true
+    Drop-Blocks-For-Blast: true
+    Drop-Blocks-For-VeinMiner: true
+    Right-Click-Enchantment-Table: false
+    EXP-Bug: false
+    Lightning-Sound-Range: 160
+    Ally-Mobs:
+      Wolf: '&b%player%''s Saberwolf'
+      Iron-Golem: '&6%player%''s Golem'
+      Zombie: '&2%player%''s Undead'
+      Endermite: '&5%player%''s Endermite'
+      Silverfish: '&7%player%''s Silverfish'
+      Bee: '&e%player%''s Bee'
+    Armor-Upgrade:
+      Toggle: true
+      Enchantment-Break: true
+    Wings:
+      Clouds: true
+      Enemy-Toggle: true
+      Distance: 25
+      Members-Can-Fly: true
+      Owners-Can-Fly: true
+      Regions:
+      - Free_Fly
+      - SafeZone
+      Worlds:
+        Limitless-Flight-Worlds:
+        - Hub_Example
+        Whitelisted:
+        - Hub_Example
+        Blacklisted:
+        - SkyBlock_Example
+  Costs:
+    Scrambler:
+      Cost: 800
+      Currency: Vault
+    ProtectionCrystal:
+      Cost: 500
+      Currency: Vault
+    TransmogScroll:
+      Cost: 200
+      Currency: Vault
+    BlackScroll:
+      Cost: 1000
+      Currency: Vault
+    WhiteScroll:
+      Cost: 2000
+      Currency: Vault
+    SuccessDust:
+      Cost: 500
+      Currency: Vault
+    DestroyDust:
+      Cost: 500
+      Currency: Vault
+    Slot_Crystal:
+      Cost: 500
+      Currency: Vault
+  GUICustomization:
+  - 'Slot:1, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:2, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:3, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:4, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:5, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:6, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:7, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:8, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:9, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:10, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:18, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:19, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:27, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:28, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:36, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:37, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:45, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:46, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:47, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:48, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:49, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:50, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:51, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:52, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:53, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:54, Item:BLACK_STAINED_GLASS_PANE, Name: '
+  - 'Slot:11, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:12, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:13, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:14, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:15, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:16, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:17, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:20, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:26, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:29, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:35, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:38, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:39, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:40, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:41, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:42, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:43, Item:WHITE_STAINED_GLASS_PANE, Name: '
+  - 'Slot:44, Item:WHITE_STAINED_GLASS_PANE, Name: '
+Categories:
+  Common:
+    Name: '&a&lОбычные'
+    Slot: 31
+    InGUI: true
+    Lore:
+    - '&eCost: &6&l20 &6XP Levels'
+    Item: LIME_STAINED_GLASS_PANE
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Cost: 20
+    Currency: XP_Level
+    Rarity: 1
+    LostBook:
+      InGUI: false
+      Slot: 31
+      Item: BOOK
+      Model:
+        Namespace: ''
+        Key: ''
+      Glowing: false
+      Name: '&8&l&nLost&c&l Tier1 &8&l&nBooks'
+      Lore:
+      - '&7These are lost books that are'
+      - '&7Said to be &c&lTier1 &7Enchantment books.'
+      - '&7But no one has tried to clean the books yet.'
+      - '&7Will you be the one to clean the books?'
+      - ''
+      - '&c&lCost: &6&l$1000'
+      Cost: 1000
+      Currency: Vault
+      FireworkToggle: true
+      FireworkColors: Red, White, Blue
+      Sound-Toggle: false
+      Sound: BLOCK_ANVIL_PLACE
+    EnchOptions:
+      SuccessPercent:
+        Max: 90
+        Min: 40
+      DestroyPercent:
+        Max: 10
+        Min: 0
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 2
+        Min: 1
+  Rare:
+    Name: '&9&lРедкие'
+    Slot: 32
+    InGUI: true
+    Lore:
+    - '&eCost: &6&l40 &6XP Levels'
+    Item: BLUE_STAINED_GLASS_PANE
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Cost: 40
+    Currency: XP_Level
+    Rarity: 2
+    LostBook:
+      InGUI: false
+      Slot: 32
+      Item: BOOK
+      Model:
+        Namespace: ''
+        Key: ''
+      Glowing: false
+      Name: '&8&l&nLost&c&l Tier2 &8&l&nBooks'
+      Lore:
+      - '&7These are lost books that are'
+      - '&7Said to be &c&lTier2 &7Enchantment books.'
+      - '&7But no one has tried to clean the books yet.'
+      - '&7Will you be the one to clean the books?'
+      - ''
+      - '&c&lCost: &6&l$2000'
+      Cost: 2000
+      Currency: Vault
+      FireworkToggle: true
+      FireworkColors: Black, Yellow
+      Sound-Toggle: false
+      Sound: BLOCK_ANVIL_PLACE
+    EnchOptions:
+      SuccessPercent:
+        Max: 70
+        Min: 35
+      DestroyPercent:
+        Max: 25
+        Min: 10
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 3
+        Min: 2
+  Legendary:
+    Name: '&6&lЛегендарные'
+    Slot: 33
+    InGUI: true
+    Lore:
+    - '&eCost: &6&l60 &6XP Levels'
+    Item: RED_STAINED_GLASS_PANE
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Cost: 60
+    Currency: XP_Level
+    Rarity: 3
+    LostBook:
+      InGUI: false
+      Slot: 33
+      Item: BOOK
+      Model:
+        Namespace: ''
+        Key: ''
+      Glowing: false
+      Name: '&8&l&nLost&c&l Tier3 &8&l&nBooks'
+      Lore:
+      - '&7These are lost books that are'
+      - '&7Said to be &c&lTier3 &7Enchantment books.'
+      - '&7But no one has tried to clean the books yet.'
+      - '&7Will you be the one to clean the books?'
+      - ''
+      - '&c&lCost: &6&l$3000'
+      Cost: 3000
+      Currency: Vault
+      FireworkToggle: true
+      FireworkColors: White, Gray
+      Sound-Toggle: false
+      Sound: BLOCK_ANVIL_PLACE
+    EnchOptions:
+      SuccessPercent:
+        Max: 50
+        Min: 25
+      DestroyPercent:
+        Max: 35
+        Min: 15
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 5
+        Min: 3
+  Mythical:
+    Name: '&d&lМифические'
+    Slot: 41
+    InGUI: true
+    Lore:
+    - '&eCost: &6&l120 &6XP Levels'
+    Item: AMETHYST_CLUSTER
+    Model:
+      Namespace: ''
+      Key: ''
+    Glowing: true
+    Cost: 120
+    Currency: XP_Level
+    Rarity: 10
+    LostBook:
+      InGUI: false
+      Slot: 41
+      Item: BOOK
+      Model:
+        Namespace: ''
+        Key: ''
+      Glowing: false
+      Name: '&8&l&nLost&c&l Tier 10 &8&l&nBooks'
+      Lore:
+      - '&7These are lost books that are'
+      - '&7Said to be &c&lTier 10 &7Enchantment books.'
+      - '&7But no one has tried to clean the books yet.'
+      - '&7Will you be the one to clean the books?'
+      - ''
+      - '&c&lCost: &6&l$10000'
+      Cost: 10000
+      Currency: Vault
+      FireworkToggle: true
+      FireworkColors: White, Gray
+      Sound-Toggle: false
+      Sound: BLOCK_ANVIL_PLACE
+    EnchOptions:
+      SuccessPercent:
+        Max: 15
+        Min: 1
+      DestroyPercent:
+        Max: 95
+        Min: 20
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 10
+        Min: 1

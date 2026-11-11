@@ -1,0 +1,1655 @@
+Enchantments:
+  Glowing:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&7Свечение'
+    MaxPower: 1
+    Enchantment-Type: Helmet
+    Info:
+      Name: '&e&lСвечение &7(&bI&7)'
+      Description:
+      - '&7Даёт постоянный эффект ночного зрения,'
+      - '&7когда надет шлем.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+    Conflicts: []
+  BurnShield:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cОгнещит'
+    MaxPower: 1
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lОгнещит &7(&bI-IV&7)'
+      Description:
+      - '&7Даёт полную невосприимчивость к огню'
+      - '&7и лаве при ношении брони.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Piercing:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Пробивание'
+    MaxPower: 3
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lПробивание &7(&bI-V&7)'
+      Description:
+      - '&7Стрелы пробивают броню противника,'
+      - '&7нанося чистый урон цели.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  OverLoad:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aПерегрузка'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lПерегрузка &7(&bI-III&7)'
+      Description:
+      - '&7Увеличивает максимальный запас здоровья'
+      - '&7и сердец игрока.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  SelfDestruct:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Самоподрыв'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lСамоподрыв &7(&bI-III&7)'
+      Description:
+      - '&7При вашей гибели вокруг врагов'
+      - '&7появляется активированный динамит.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Springs:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aПрыгучесть'
+    MaxPower: 5
+    Enchantment-Type: Boots
+    Info:
+      Name: '&e&lПрыгучесть &7(&bI-III&7)'
+      Description:
+      - '&7Даёт постоянный эффект прыгучести'
+      - '&7при ношении ботинок.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Gears:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bСкороходы'
+    MaxPower: 3
+    Enchantment-Type: Boots
+    Info:
+      Name: '&e&lСкороходы &7(&bI-III&7)'
+      Description:
+      - '&7Увеличивает скорость передвижения'
+      - '&7и бега владельца.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Hulk:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&2Халк'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lХалк &7(&bI-III&7)'
+      Description:
+      - '&7Даёт силу и сопротивление урону,'
+      - '&7но накладывает лёгкую медлительность.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Mermaid:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bРусалка'
+    MaxPower: 3
+    Enchantment-Type: Helmet
+    Info:
+      Name: '&e&lРусалка &7(&bI&7)'
+      Description:
+      - '&7Даёт эффект подводного дыхания,'
+      - '&7пока шлем надет на вас.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Ninja:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Ниндзя'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lНиндзя &7(&bI-IV&7)'
+      Description:
+      - '&7Даёт эффекты скорости и сопротивления'
+      - '&7при ношении обуви.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Vampire:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Вампиризм'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lВампиризм &7(&bI-III&7)'
+      Description:
+      - '&7Шанс восстановить здоровье'
+      - '&7при нанесении урона врагу.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  LifeSteal:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cПохищение жизни'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lПохищение жизни &7(&bI-V&7)'
+      Description:
+      - '&7Шанс украсть здоровье у врага'
+      - '&7и передать его себе при ударе.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Doctor:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aДоктор'
+    MaxPower: 3
+    Enchantment-Type: Bow
+    Info:
+      Name: '&e&lДоктор &7(&bI-V&7)'
+      Description:
+      - '&7Стрелы исцеляют союзников и мобов,'
+      - '&7в которых вы попадаете.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Boom:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cВзрывные стрелы'
+    MaxPower: 3
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 20
+      Increase: 10
+    Info:
+      Name: '&e&lВзрывные стрелы &7(&bI-V&7)'
+      Description:
+      - '&7Стрелы взрываются при столкновении'
+      - '&7с блоком или целью.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Venom:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&2Яд'
+    MaxPower: 5
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lЯд &7(&bI-III&7)'
+      Description:
+      - '&7Шанс отравить противника при ударе.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  DoubleDamage:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cДвойной урон'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&e&lДвойной урон &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс нанести критический двойной урон.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  SlowMo:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&9Замедление врага'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lЗамедление врага &7(&bI-V&7)'
+      Description:
+      - '&7Шанс наложить эффект медлительности'
+      - '&7на атакующего вас противника.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Blindness:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Слепота'
+    MaxPower: 2
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&e&lСлепота &7(&bI-III&7)'
+      Description:
+      - '&7Шанс ослепить противника при атаке.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Viper:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&2Гадюка'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lГадюка &7(&bI-V&7)'
+      Description:
+      - '&7Шанс наложить сильный эффект яда'
+      - '&7на цель при ударе мечом.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  AntiGravity:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&dАнтигравитация'
+    MaxPower: 3
+    Enchantment-Type: Boots
+    Info:
+      Name: '&e&lАнтигравитация &7(&bI-III&7)'
+      Description:
+      - '&7Даёт эффект невероятно высокого прыжка.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  FastTurn:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eБыстрый разворот'
+    MaxPower: 2
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lБыстрый разворот &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс нанести повышенный урон'
+      - '&7при неожиданной атаке.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  LightWeight:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bЛёгкость'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lЛёгкость &7(&bI-V&7)'
+      Description:
+      - '&7Даёт всплеск скорости и спешки при атаке.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Blessed:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aБлагословение'
+    MaxPower: 3
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lБлагословение &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс мгновенно снять с себя'
+      - '&7все негативные эффекты при ударе.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  FeedMe:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Сытость'
+    MaxPower: 5
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lСытость &7(&bI-V&7)'
+      Description:
+      - '&7Шанс восстановить очки голода'
+      - '&7при нанесении ударов топором.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Dizzy:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eГоловокружение'
+    MaxPower: 3
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lГоловокружение &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс вызвать дезориентацию и тошноту'
+      - '&7у вашего противника.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Berserk:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cБерсерк'
+    MaxPower: 3
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 1
+    Info:
+      Name: '&e&lБерсерк &7(&bI-V&7)'
+      Description:
+      - '&7При низком здоровье даёт огромную силу'
+      - '&7и скорость атаки.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Cursed:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&5Проклятие'
+    MaxPower: 3
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lПроклятие &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс замедлить и иссушить противника,'
+      - '&7когда он бьёт вас.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Rekt:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Сокрушение'
+    MaxPower: 3
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&e&lСокрушение &7(&bI-V&7)'
+      Description:
+      - '&7Наносит сокрушительный урон броне врага.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  TreeFeller:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Лесоруб'
+    MaxPower: 5
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&e&lЛесоруб &7(&bI-V&7)'
+      Description:
+      - '&7Срубает всё дерево целиком'
+      - '&7при разрушении одного блока ствола.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Enlightened:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aПросветление'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lПросветление &7(&bI-III&7)'
+      Description:
+      - '&7Шанс исцелить здоровье при получении удара.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Freeze:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bЗаморозка'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lЗаморозка &7(&bI-III&7)'
+      Description:
+      - '&7Замораживает и сковывает цель движениями.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Fortify:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&7Укрепление'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lУкрепление &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс наложить слабость на атакующего врага.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Molten:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cРаскалённая броня'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 1
+    Info:
+      Name: '&e&lРаскалённая броня &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс поджечь противника при получении урона.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  PainGiver:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&5Возмездие'
+    MaxPower: 4
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lВозмездие &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс отравить врага при получении удара.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Savior:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Спаситель'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lСпаситель &7(&bI-V&7)'
+      Description:
+      - '&7Снижает входящий урон вдвое при низком здоровье.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Nursery:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aИсцеление на бегу'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lИсцеление на бегу &7(&bI-III&7)'
+      Description:
+      - '&7Постепенно восстанавливает здоровье'
+      - '&7во время ходьбы.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  AutoSmelt:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Автоплавка'
+    MaxPower: 5
+    Enchantment-Type: PickAxe
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&e&lАвтоплавка &7(&bI-III&7)'
+      Description:
+      - '&7Автоматически переплавляет добытые руды'
+      - '&7в готовые слитки.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Experience:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aМудрость'
+    MaxPower: 3
+    Enchantment-Type: PickAxe
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&e&lМудрость &7(&bI-V&7)'
+      Description:
+      - '&7Умножает количество опыта, получаемого с руд.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Telepathy:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&dТелепатия'
+    MaxPower: 1
+    Enchantment-Type: Tool
+    Info:
+      Name: '&e&lТелепатия &7(&bI-IV&7)'
+      Description:
+      - '&7Добытые блоки автоматически попадают'
+      - '&7прямо в ваш инвентарь.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Haste:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eСпешка'
+    MaxPower: 3
+    Enchantment-Type: Tool
+    Info:
+      Name: '&e&lСпешка &7(&bI-III&7)'
+      Description:
+      - '&7Даёт постоянный эффект ускоренного копания.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Oxygenate:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bКислород'
+    MaxPower: 1
+    Enchantment-Type: Tool
+    Info:
+      Name: '&e&lКислород &7(&bI&7)'
+      Description:
+      - '&7Восстанавливает воздух при копании под водой.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  IceFreeze:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bЛедяной выстрел'
+    MaxPower: 1
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&e&lЛедяной выстрел &7(&bI-III&7)'
+      Description:
+      - '&7Стрелы сильно замедляют цель при попадании.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Lightning:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eГромовержец'
+    MaxPower: 1
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&e&lГромовержец &7(&bI-III&7)'
+      Description:
+      - '&7Стрелы призывают молнию в точку попадания.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Decapitation:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cОбезглавливание'
+    MaxPower: 5
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&e&lОбезглавливание &7(&bI-V&7)'
+      Description:
+      - '&7Шанс выбить голову моба или игрока при убийстве.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Confusion:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eЗамешательство'
+    MaxPower: 4
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lЗамешательство &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс вызвать тошноту у противника ударом топора.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Disarmer:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Разоружение'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 1
+    Info:
+      Name: '&e&lРазоружение &7(&bI-V&7)'
+      Description:
+      - '&7Шанс выбить оружие или предмет из рук врага.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Execute:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Казнь'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Info:
+      Name: '&e&lКазнь &7(&bI-VII&7)'
+      Description:
+      - '&7Даёт всплеск силы при добивании противника.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Headless:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Охотник за головами'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&e&lОхотник за головами &7(&bI-III&7)'
+      Description:
+      - '&7Повышает шанс добыть голову противника.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Inquisitive:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aЛюбознательность'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 50
+      Increase: 25
+    Info:
+      Name: '&e&lЛюбознательность &7(&bI-IV&7)'
+      Description:
+      - '&7Значительно увеличивает опыт за убийство мобов.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Insomnia:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Бессонница'
+    MaxPower: 1
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lБессонница &7(&bI-VII&7)'
+      Description:
+      - '&7Шанс наложить слепоту и тошноту при атаке.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Nutrition:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Питание'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lПитание &7(&bI-VIII&7)'
+      Description:
+      - '&7Восстанавливает полоску сытости при получении урона.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Obliterate:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cОтбрасывание гиганта'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lОтбрасывание гиганта &7(&bI-V&7)'
+      Description:
+      - '&7Мощнейший удар, отбрасывающий врага далеко назад.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Paralyze:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&7Паралич'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lПаралич &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс наложить медлительность и слабость.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  SkillSwipe:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aКража опыта'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lКража опыта &7(&bI-V&7)'
+      Description:
+      - '&7Шанс украсть очки опыта у игрока при ударе.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Snare:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Опутывание'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 10
+      Increase: 3
+    Info:
+      Name: '&e&lОпутывание &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс опутать врага замедлением и медлительностью.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Trap:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Капкан'
+    MaxPower: 2
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lКапкан &7(&bI-III&7)'
+      Description:
+      - '&7Шанс сковать движения врага на несколько секунд.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Wither:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Иссушение'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 10
+      Increase: 3
+    Info:
+      Name: '&e&lИссушение &7(&bI-V&7)'
+      Description:
+      - '&7Накладывает иссушение на атакуемого или атакующего.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Rage:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Ярость'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Info:
+      Name: '&e&lЯрость &7(&bI-IV&7)'
+      Description:
+      - '&7Серия успешных ударов увеличивает множитель урона.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Valor:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&9Доблесть'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lДоблесть &7(&bI-V&7)'
+      Description:
+      - '&7Даёт сопротивление урону в зависимости от надетой брони.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  SmokeBomb:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Дымовая шашка'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lДымовая шашка &7(&bI-VIII&7)'
+      Description:
+      - '&7При низком здоровье создаёт густой дым и ослепляет врагов.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Drunk:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eХмель'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lХмель &7(&bI-IV&7)'
+      Description:
+      - '&7Даёт силу и стойкость, но накладывает покачивание.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Voodoo:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&5Вуду'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lВуду &7(&bI-VI&7)'
+      Description:
+      - '&7Шанс наложить слабость на атакующего врага.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  MultiArrow:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bЗалп стрел'
+    MaxPower: 5
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&e&lЗалп стрел &7(&bI-V&7)'
+      Description:
+      - '&7Выпускает веер из нескольких стрел одновременно.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Recover:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aВосстановление'
+    MaxPower: 1
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lВосстановление &7(&bI-IV&7)'
+      Description:
+      - '&7Накладывает регенерацию и поглощение после победы над игроком.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Cactus:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&2Кактус'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&e&lКактус &7(&bI-II&7)'
+      Description:
+      - '&7Отражает часть входящего урона обратно в нападающего.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Rocket:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cРакета'
+    MaxPower: 3
+    Enchantment-Type: Boots
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lРакета &7(&bI-III&7)'
+      Description:
+      - '&7Подбрасывает игрока в воздух при падении для смягчения удара.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Adrenaline:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cАдреналин'
+    MaxPower: 3
+    Enchantment-Type: Boots
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lАдреналин &7(&bI-III&7)'
+      Description:
+      - '&7Даёт мощный всплеск скорости при критическом здоровье.'
+    Categories:
+    - Mythical
+  Angel:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&fАнгел-хранитель'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lАнгел-хранитель &7(&bI-V&7)'
+      Description:
+      - '&7Периодически накладывает регенерацию на союзников рядом.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  HellForged:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Адская ковка'
+    MaxPower: 4
+    Enchantment-Type: Damaged-Items
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lАдская ковка &7(&bI-IV&7)'
+      Description:
+      - '&7Медленно чинит предмет прямо во время ходьбы.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Commander:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&9Командир'
+    MaxPower: 5
+    Enchantment-Type: Helmet
+    Info:
+      Name: '&e&lКомандир &7(&bI-V&7)'
+      Description:
+      - '&7Даёт эффект ускорения всем союзникам вокруг вас.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  StormCaller:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bПризыватель бури'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lПризыватель бури &7(&bI-IV&7)'
+      Description:
+      - '&7Бьёт молнией по атакующему вас врагу.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Leadership:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Лидерство'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lЛидерство &7(&bI-V&7)'
+      Description:
+      - '&7Увеличивает урон союзников, сражающихся рядом с вами.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Implants:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&3Импланты'
+    MaxPower: 5
+    Enchantment-Type: Helmet
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lИмпланты &7(&bI-III&7)'
+      Description:
+      - '&7Постоянно восстанавливает сытость и здоровье.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Wings:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&fКрылья'
+    MaxPower: 1
+    Enchantment-Type: Boots
+    Info:
+      Name: '&e&lКрылья &7(&bI&7)'
+      Description:
+      - '&7Позволяет летать и защищает от любого урона при падении.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  VeinMiner:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Жильная добыча'
+    MaxPower: 6
+    Enchantment-Type: PickAxe
+    Info:
+      Name: '&e&lЖильная добыча &7(&bI-III&7)'
+      Description:
+      - '&7Добывает всю жилу руды за один клик.'
+    Categories:
+    - Mythical
+    Conflicts:
+    - Blast
+  Blast:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cВзрывное копание'
+    MaxPower: 3
+    Enchantment-Type: PickAxe
+    Info:
+      Name: '&e&lВзрывное копание &7(&bI-II&7)'
+      Description:
+      - '&7Добывает блоки областью 3x3 за удар.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+    Conflicts:
+    - VeinMiner
+  Furnace:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Печь'
+    MaxPower: 1
+    Enchantment-Type: PickAxe
+    Info:
+      Name: '&e&lПечь &7(&bI-III&7)'
+      Description:
+      - '&7Автоматически переплавляет добываемые руды.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Blizzard:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bМетель'
+    MaxPower: 1
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lМетель &7(&bI-III&7)'
+      Description:
+      - '&7Вызывает снежную бурю, замедляя врагов вокруг стрелы.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  AcidRain:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&2Кислотный дождь'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lКислотный дождь &7(&bI-VI&7)'
+      Description:
+      - '&7Стрелы призывают ядовитый дождь над противниками.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  SandStorm:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eПесчаная буря'
+    MaxPower: 1
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lПесчаная буря &7(&bI-V&7)'
+      Description:
+      - '&7Ослепляет врагов в области приземления стрелы.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Radiant:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eСияние'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lСияние &7(&bI-VI&7)'
+      Description:
+      - '&7Ослепляет атакующих вас врагов вспышкой света.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Intimidate:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&5Запугивание'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lЗапугивание &7(&bI-V&7)'
+      Description:
+      - '&7Накладывает слабость на всех врагов вокруг вас.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Pull:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&9Притягивание'
+    MaxPower: 3
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 25
+      Increase: 10
+    Info:
+      Name: '&e&lПритягивание &7(&bI-V&7)'
+      Description:
+      - '&7Стрела притягивает цель прямо к стрелку.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Tamer:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Укротитель'
+    MaxPower: 5
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lУкротитель &7(&bI-IV&7)'
+      Description:
+      - '&7Призывает верных волков для помощи в бою при получении урона.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Guards:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&7Стража'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lСтража &7(&bI-IV&7)'
+      Description:
+      - '&7Призывает железных големов для защиты игрока.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Infestation:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Нашествие'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lНашествие &7(&bI-IV&7)'
+      Description:
+      - '&7Призывает стаю чешуйниц, атакующих врагов при уроне.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Necromancer:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&2Некромант'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lНекромант &7(&bI-V&7)'
+      Description:
+      - '&7Призывает зомби-прислужников для сражения на вашей стороне.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  BeeKeeper:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&eПасечник'
+    MaxPower: 2
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lПасечник &7(&bI-III&7)'
+      Description:
+      - '&7Призывает рой разъярённых пчёл для атаки врага.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Maneuver:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bМанёвр'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lМанёвр &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс полностью уклониться от атаки противника.'
+    Categories:
+    - Mythical
+  Crouch:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&8Скрытность'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lСкрытность &7(&bI-VII&7)'
+      Description:
+      - '&7Снижает входящий урон и скрывает ник при приседании.'
+    Categories:
+    - Mythical
+  Shockwave:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&fУдарная волна'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lУдарная волна &7(&bI-V&7)'
+      Description:
+      - '&7Отбрасывает всех врагов вокруг при получении удара.'
+    Categories:
+    - Mythical
+  SystemReboot:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aПерезагрузка'
+    MaxPower: 3
+    Enchantment-Type: Armor
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lПерезагрузка &7(&bI-V&7)'
+      Description:
+      - '&7Спасает от смертельного удара, мгновенно восстанавливая здоровье.'
+    Categories:
+    - Mythical
+  Sticky-Shot:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&7Липкий выстрел'
+    MaxPower: 3
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&e&lЛипкий выстрел &7(&bI-III&7)'
+      Description:
+      - '&7Стрелы опутывают цель паутиной на месте попадания.'
+    Categories:
+    - Common
+    - Rare
+    - Legendary
+  Disorder:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&dДезориентация'
+    MaxPower: 1
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 1
+      Increase: 1
+    Info:
+      Name: '&e&lДезориентация &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс перемешать слоты в хотбаре противника при ударе.'
+    Categories:
+    - Legendary
+  Charge:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Рывок'
+    MaxPower: 5
+    Enchantment-Type: Sword
+    Info:
+      Name: '&e&lРывок &7(&bI-IV&7)'
+      Description:
+      - '&7Увеличивает наносимый урон во время быстрого бега.'
+    Categories:
+    - Rare
+  Revenge:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Месть'
+    MaxPower: 1
+    Enchantment-Type: Sword
+    Info:
+      Name: '&e&lМесть &7(&bI-III&7)'
+      Description:
+      - '&7Призывает ядовитых пауков при гибели владельца.'
+    Categories:
+    - Rare
+  BattleCry:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&cБоевой клич'
+    MaxPower: 5
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lБоевой клич &7(&bI-V&7)'
+      Description:
+      - '&7Отпугивает врагов и усиливает союзников боевым кличем.'
+    Categories:
+    - Legendary
+  DemonForged:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&4Демоническая ковка'
+    MaxPower: 5
+    Enchantment-Type: Axe
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lДемоническая ковка &7(&bI-IV&7)'
+      Description:
+      - '&7Разрушает прочность брони цели с удвоенной скоростью.'
+    Categories:
+    - Mythical
+  Famished:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Истощение'
+    MaxPower: 3
+    Enchantment-Type: Sword
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lИстощение &7(&bI-IV&7)'
+      Description:
+      - '&7Шанс мгновенно истощить голод противника при атаке.'
+    Categories:
+    - Rare
+  GreenThumb:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aЗелёный палец'
+    MaxPower: 3
+    Enchantment-Type: Hoe
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&e&lЗелёный палец &7(&bI-III&7)'
+      Description:
+      - '&7Автоматически заново засевает собранный урожай.'
+    Categories:
+    - Rare
+  Harvester:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Жнец'
+    MaxPower: 1
+    Enchantment-Type: Hoe
+    Info:
+      Name: '&e&lЖнец &7(&bI-III&7)'
+      Description:
+      - '&7Собирает созревший урожай областью 3x3 вокруг.'
+    Categories:
+    - Common
+  Tiller:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Вспашка'
+    MaxPower: 1
+    Enchantment-Type: Hoe
+    Info:
+      Name: '&e&lВспашка &7(&bI-III&7)'
+      Description:
+      - '&7Вспахивает землю областью 3x3 за один взмах мотыги.'
+    Categories:
+    - Common
+  Planter:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&aСеялка'
+    MaxPower: 1
+    Enchantment-Type: Hoe
+    Info:
+      Name: '&e&lСеялка &7(&bI-III&7)'
+      Description:
+      - '&7Засевает семена областью 3x3 за один клик.'
+    Categories:
+    - Common
+  Cyborg:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&bКиборг'
+    MaxPower: 1
+    Enchantment-Type: Armor
+    Info:
+      Name: '&e&lКиборг &7(&bI-V&7)'
+      Description:
+      - '&7Даёт сопротивление урону и постоянную регенерацию брони.'
+    Categories:
+    - Legendary
+  Sniper:
+    Enabled: true
+    Sound: ENTITY_PLAYER_LEVELUP
+    Name: '&6Снайпер'
+    MaxPower: 2
+    Enchantment-Type: Bow
+    Chance-System:
+      Base: 25
+      Increase: 5
+    Info:
+      Name: '&e&lСнайпер &7(&bI-V&7)'
+      Description:
+      - '&7Многократно увеличивает урон при стрельбе с большой дистанции.'
+    Categories:
+    - Legendary

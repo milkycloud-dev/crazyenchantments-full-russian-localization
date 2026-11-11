@@ -1,0 +1,163 @@
+Messages:
+  command:
+    migrate:
+      error: '{prefix}<red>Не удалось перенести <green>{file} <red>с помощью типа
+        <green>{type} <red>по причине: <green>{reason}.'
+      not-available: '{prefix}<green>Этот тип миграции недоступен.'
+      success: '{prefix}<green>Успешно перенесён файл <green>{file} <red>с использованием
+        <green>{type}!'
+      detailed-success:
+      - <bold><gold>━━━━━━━━━━━━━━━━━━━ Статистика переноса ━━━━━━━━━━━━━━━━━━━</gold></bold>
+      - '<dark_gray>»</dark_gray> <green>Успешных конверсий: '
+      - ' ⤷ {succeeded_amount}</green>'
+      - '<dark_gray>»</dark_gray> <red>Ошибок конверсии: '
+      - ' ⤷ {failed_amount}</red>'
+      - ''
+      - '<red>Время конверсии: <yellow>{time}'
+      - '<red>Тип конверсии: <yellow>{type}'
+      - ''
+      - '<red>Сконвертированные файлы:'
+      - '{files}'
+      - ''
+      - <bold><gold>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</gold></bold>
+  category:
+    no-valid-enchantments: '{prefix}<red>В категории {category} нет доступных чар.'
+  Config-Reload: '{prefix}<gray>Файл Config.yml успешно перезагружен.'
+  Need-To-UnStack-Item: '{prefix}<red>Разделите стак предметов перед использованием.'
+  Not-An-Enchantment: '{prefix}<red>Это не является зачарованием.'
+  Right-Click-Black-Scroll: '{prefix}<gray>Чёрный свиток удалит случайное зачарование
+    с вашего предмета.'
+  Black-Scroll-Unsuccessful: '{prefix}<red>Использование чёрного свитка не удалось.
+    Попробуйте другой свиток.'
+  Need-More-XP-Lvls: '{prefix}<red>Вам нужно ещё <gold>%xp% <red>уровней опыта.'
+  Need-More-Total-XP: '{prefix}<red>Вам нужно ещё <gold>%xp% <red>общего опыта.'
+  Need-More-Money: '{prefix}<red>Вам нужно ещё <green>$%money_needed%<red>.'
+  Hit-Enchantment-Max:
+  - '{prefix}<#ff0000>На этом предмете уже достигнут максимальный лимит чар.'
+  - '{prefix}<#880808>Используйте <dark_green>/ce limit <#880808>для проверки лимита
+    на предмете.'
+  Conflicting-Enchant: '{prefix}<gray>Это зачарование конфликтует с уже установленным
+    на предмете.'
+  Hit-Slot-Max: '{prefix}<red>Вы уже добавили максимальное количество слотов для этого
+    предмета.'
+  Applied-Slot-Crystal: '{prefix}<green>Вы успешно добавили дополнительный слот. Теперь
+    на предмете %slot% доп. слотов.'
+  Inventory-Full: '{prefix}<red>Ваш инвентарь переполнен! Освободите место для покупки.'
+  Tinker-Inventory-Full: '{prefix}<red>Инвентарь полон. Продайте всё или заберите
+    предметы.'
+  Need-To-Use-Player-Inventory: '{prefix}<red>Вы можете использовать это только в
+    инвентаре игрока.'
+  Tinker-Sold-Msg: '{prefix}<gray>Спасибо за сделку у <gray><b><dark_red><b>Безумного
+    <red><b>Сборщика<gray>.'
+  Players-Only: '{prefix}<red>Эту команду могут использовать только игроки.'
+  No-Perm: '{prefix}<red>У вас нет прав для выполнения этой команды!'
+  Not-Online: '{prefix}<red>Этот игрок сейчас не в сети.'
+  Remove-Enchantment: '{prefix}<gray>Вы сняли зачарование <green>%enchantment% <gray>с
+    этого предмета.'
+  Doesnt-Have-Enchantment: '{prefix}<red>На вашем предмете нет зачарования <gold>%enchantment%<red>.'
+  Doesnt-Have-Item-In-Hand: '{prefix}<red>Вы должны держать предмет в руке.'
+  Not-A-Number: '{prefix}<red>%Arg% не является числом.'
+  Get-Success-Dust: '{prefix}<gray>Вы получили <green>%amount% <gray>пыли успеха.'
+  Give-Success-Dust: '{prefix}<gray>Вы выдали <green>%amount% <gray>пыли успеха игроку
+    <gold>%player%<gray>.'
+  Get-Destroy-Dust: '{prefix}<gray>Вы получили <green>%amount% <gray>пыли разрушения.'
+  Give-Destroy-Dust: '{prefix}<gray>Вы выдали <green>%amount% <gray>пыли разрушения
+    игроку <gold>%player%<gray>.'
+  Get-Mystery-Dust: '{prefix}<gray>Вы получили <green>%amount% <gray>загадочной пыли.'
+  Give-Mystery-Dust: '{prefix}<gray>Вы выдали <green>%amount% <gray>загадочной пыли
+    игроку <gold>%player%<gray>.'
+  Not-A-Category: '{prefix}<gold>%category% <red>не является категорией.'
+  Clean-Lost-Book: '{prefix}<gray>Вы очистили потерянную книгу и получили: %found%<gray>.'
+  Book-Works: '{prefix}<green>Предмет принял книгу зачарования! Успешно наложено.'
+  Book-Failed: '{prefix}<red>Предмету не подошло это зачарование. Наложение не удалось.'
+  Item-Destroyed: '{prefix}<red>Увы, шанс разрушения сработал, и предмет уничтожен!'
+  Item-Was-Protected: '{prefix}<green>К счастью, ваш предмет был защищён Божественной
+    Защитой и уцелел!'
+  Player-Is-In-Creative-Mode: '{prefix}<red>Вы находитесь в творческом режиме. Перейдите
+    в режим выживания!'
+  Give-Protection-Crystal: '{prefix}<gray>Вы выдали игроку %player% %amount% кристаллов
+    защиты.'
+  Get-Protection-Crystal: '{prefix}<gray>Вы получили %amount% кристаллов защиты.'
+  Give-Scrambler-Crystal: '{prefix}<gray>Вы выдали игроку %player% %amount% <yellow><b>Великих
+    перемешивателей<gray>.'
+  Get-Slot-Crystal: '{prefix}<gray>Вы получили %amount% кристаллов слотов.'
+  Give-Slot-Crystal: '{prefix}<gray>Вы выдали игроку %player% %amount% <yellow><b>Кристаллов
+    слотов<gray>.'
+  Get-Scrambler-Crystal: '{prefix}<gray>Вы получили %amount% <yellow><b>Великих перемешивателей<gray>.'
+  Give-Bottle: '{prefix}<gray>Вы выдали игроку <gold>%player% <gray>пузырёк с <green>%amount%
+    <gray>опыта!'
+  Get-Bottle: '{prefix}<gray>Вам выдан пузырёк с <green>%amount% <gray>опыта!'
+  Give-Scroll: '{prefix}<gray>Вы выдали игроку <gold>%player% %type% <gray>свиток!'
+  Get-Scroll: '{prefix}<gray>Вы получили <gold>%type% <gray>свиток!'
+  Give-LostBook: '{prefix}<gray>Вы выдали игроку <gold>%player% <gray>потерянную книгу
+    категории %category%!'
+  Get-LostBook: '{prefix}<gray>Вы получили потерянную книгу категории <gold>%category%<gray>!'
+  Break-Enchantment-Shop-Sign: '{prefix}<red>Вы сняли табличку магазина Crazy Enchantment.'
+  Send-Enchantment-Book: '{prefix}<gray>Вы отправили игроку <gold>%player% <gray>книгу
+    зачарования Crazy Enchantment.'
+  Not-A-GKit: '{prefix}<red>%kit% не является G-Набором.'
+  Still-In-Cooldown: '{prefix}<red>Перезарядка набора %kit% ещё активна: %day%д %hour%ч
+    %minute%м %second%с.'
+  Given-GKit: '{prefix}<gray>Вы выдали игроку <gold>%player%<gray> G-Набор %kit%<gray>.'
+  Received-GKit: '{prefix}<gray>Вы получили G-Набор %kit%<gray>.'
+  No-GKit-Permission: '{prefix}<red>У вас нет прав на использование G-Набора %kit%.'
+  Spawned-Book: '{prefix}<gray>Книга зачарования заспавнена на координатах: <gold>%world%,
+    %x%, %y%, %z%<gray>.'
+  Reset-GKit: '{prefix}<gray>Вы сбросили перезарядку G-Набора %gkit% для игрока %player%.'
+  GKitz-Not-Enabled: '{prefix}<red>Система G-Наборов в данный момент отключена.'
+  Disordered-Enemy-Hot-Bar: '{prefix}<gray>Хотбар противника перемешан!'
+  Invalid-Item-String: '{prefix}<red>Указана некорректная строка предмета.'
+  Show-Enchants-Format:
+    Main: '%item% %itemEnchants%'
+    Base: '<dark_green>%enchant%<gray>: <gold>%level% '
+  Enchantment-Upgrade:
+    Success: '{prefix}<gray>Вы улучшили зачарование <gold>%enchantment% <gray>до уровня
+      <gold>%level%<gray>.'
+    Destroyed: '{prefix}<red>Улучшение провалилось, зачарование низкого уровня было
+      потеряно.'
+    Failed: '{prefix}<red>Книга не смогла улучшить зачарование на предмете.'
+  Rage:
+    Building: '{prefix}<gray>[<red><b>Ярость<gray>]: <green>Продолжайте серию ударов,
+      ярость растёт!'
+    Cooled-Down: '{prefix}<gray>[<red><b>Ярость<gray>]: <red>Ваша ярость угасла.'
+    Rage-Up: '{prefix}<gray>[<red><b>Ярость<gray>]: <gray>Теперь вы наносите <green>%level%x
+      <gray>урона!'
+    Damaged: '{prefix}<gray>[<red><b>Ярость<gray>]: <red>Вы получили урон, и серия
+      ярости сбилась!'
+  Limit-Command:
+  - <black>======================================
+  - '<dark_gray>[<green>CrazyEnchants<dark_gray>]: <aqua>Личный лимит зачарований:'
+  - ' '
+  - '<gray>Обход лимита: <gold>%bypass%'
+  - '<gray>Проверка ванильных чар: <gold>%vanilla%'
+  - '<gray>Максимальный лимит: <gold>%limit%'
+  - '<gray>Базовый лимит чар: <gold>%baseLimit%'
+  - '<gray>Доп. слоты от кристаллов: <gold>%slotCrystal%'
+  - '<gray>Текущее кол-во чар на предмете: <gold>%item%'
+  - '<gray>Этот предмет может иметь: <gold>%canHave% <gray>чар.'
+  - '<gray>Вы можете добавить ещё: <gold>%space% <gray>чар к предмету.'
+  - '<red>Лимит в config.yml: %limitSetInConfig%'
+  - <black>======================================
+  Help:
+  - <dark_green><b><u>Crazy Enchantments
+  - <aqua>/ce - <blue>Открыть меню зачарований.
+  - <aqua>/tinker - <blue>Открыть меню Сборщика (Тинкера).
+  - <aqua>/blacksmith - <blue>Открыть меню Кузнеца.
+  - <aqua>/gkitz [набор] [игрок] - <blue>Открыть меню G-Наборов или получить набор.
+  - <aqua>/gkitz reset <набор> [игрок] - <blue>Сбросить перезарядку G-Набора.
+  - <aqua>/ce help - <blue>Показать список всех команд.
+  - <aqua>/ce debug - <blue>Выполнить быструю диагностику ошибок.
+  - <aqua>/ce info [зачарование] - <blue>Просмотреть информацию о чарах.
+  - <aqua>/ce reload - <blue>Перезагрузить все файлы конфигурации.
+  - <aqua>/ce remove <зачарование> - <blue>Снять зачарование с предмета в руке.
+  - <aqua>/ce add <зачарование> [уровень] - <blue>Добавить зачарование на предмет
+    в руке.
+  - <aqua>/ce scroll <black/white/transmog> [кол-во] [игрок] - <blue>Выдать свиток.
+  - <aqua>/ce crystal [кол-во] [игрок] - <blue>Выдать кристалл защиты.
+  - <aqua>/ce scrambler [кол-во] [игрок] - <blue>Выдать перемешиватель.
+  - <aqua>/ce dust <success/destroy/mystery> [кол-во] [игрок] [процент] - <blue>Выдать
+    пыль.
+  - <aqua>/ce book <зачарование> [уровень] [кол-во] [игрок] - <blue>Выдать книгу чар.
+  - <aqua>/ce lostbook <категория> [кол-во] [игрок] - <blue>Выдать потерянную книгу.
+  - <aqua>/ce spawn <зачарование/категория> [параметры] - <blue>Заспавнить книгу на
+    координатах.
