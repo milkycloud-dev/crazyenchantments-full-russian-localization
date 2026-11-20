@@ -11,58 +11,58 @@ Settings:
   CESuccessOverride: -1
   CEFailureOverride: -1
   EnchantmentBookLore:
-  - '&7Drag book and drop on Item.'
-  - '&7Right click for more Info.'
+  - '&7Перетащите книгу на предмет.'
+  - '&7ПКМ для подробной информации.'
   - ''
   - '%description%'
   - ''
-  - '&4%destroy_rate%% Destroy Chance'
-  - '&a%success_rate%% Success Chance'
+  - '&4%destroy_rate%% шанс разрушения'
+  - '&a%success_rate%% шанс успеха'
   LostBook:
     Item: BOOK
     Model:
       Namespace: ''
       Key: ''
-    Name: '&8&l&nA Lost %category%&8&l&n Book'
+    Name: '&8&l&nПотерянная книга: %category%'
     Lore:
-    - '&7This book has been lost for centuries'
-    - '&7It is said to be an enchantment book from %category%'
-    - '&7But you must clean it off to find out what kind it is.'
-    - '&7&l(&6&l!&7&l) &7Right Click to clean off.'
+    - '&7Эта книга была утеряна на века.'
+    - '&7Говорят, это книга зачарования из категории %category%.'
+    - '&7Но её нужно очистить, чтобы узнать, какая она.'
+    - '&7&l(&6&l!&7&l) &7ПКМ, чтобы очистить.'
   Scrambler:
     Item: SUNFLOWER
     Model:
       Namespace: ''
       Key: ''
     Glowing: true
-    Name: '&e&lThe Grand Scrambler'
+    Name: '&e&lВеликий Перемешиватель'
     Lore:
-    - '&7The &e&lThe Grand Scrambler &7will allow'
-    - '&7you to re-roll the destroy and success rates.'
-    - '&7Drag and drop it on an enchantment book'
-    - '&7to get a new destroy and success rate.'
+    - '&7&e&lВеликий Перемешиватель &7позволит'
+    - '&7заново выбрать шанс разрушения и успеха.'
+    - '&7Перетащите его на книгу зачарования,'
+    - '&7чтобы получить новые шансы разрушения и успеха.'
     GUI:
-      Name: '&8Rolling the &eScrambler'
+      Name: '&8Вращение &eПеремешивателя'
       Toggle: true
       Pointer:
         Item: REDSTONE_TORCH
         Model:
           Namespace: ''
           Key: ''
-        Name: '&c&lPointer'
+        Name: '&c&lУказатель'
         Lore:
-        - '&7Whatever percents the item lands on'
-        - '&7will be the new percents on your book.'
+        - '&7Какие бы проценты ни выпали,'
+        - '&7они станут новыми процентами вашей книги.'
     InGUI: false
     Slot: 1
-    GUIName: '&e&lThe Grand Scrambler'
+    GUIName: '&e&lВеликий Перемешиватель'
     GUILore:
-    - '&7The &e&lThe Grand Scrambler &7will allow'
-    - '&7you to re-roll the destroy and success rates.'
-    - '&7Drag and drop it on an enchantment book'
-    - '&7to get a new destroy and success rate.'
+    - '&7&e&lВеликий Перемешиватель &7позволит'
+    - '&7заново выбрать шанс разрушения и успеха.'
+    - '&7Перетащите его на книгу зачарования,'
+    - '&7чтобы получить новые шансы разрушения и успеха.'
     - ''
-    - '&eCost: &e&l$800'
+    - '&eЦена: &e&l$800'
   Slot_Crystal:
     InGUI: false
     Slot: 14
@@ -71,20 +71,20 @@ Settings:
       Namespace: ''
       Key: ''
     Glowing: true
-    Name: '&5&lSlot &b&lCrystal'
+    Name: '&5&lКристалл &b&lСлота'
     Lore:
-    - '&7A rare crystal that is said to'
-    - '&7increase the amount of enchants'
-    - '&7that can be added onto an item.'
+    - '&7Редкий кристалл, который, как говорят,'
+    - '&7увеличивает количество зачарований,'
+    - '&7которые можно добавить на предмет.'
     - ''
-    - '&7&l(&6&l!&7&l) &7Drag and drop on an item.'
-    GUIName: '&5&lSlot &b&lCrystal'
+    - '&7&l(&6&l!&7&l) &7Перетащите на предмет.'
+    GUIName: '&5&lКристалл &b&lСлота'
     GUILore:
-    - '&7A rare crystal that is said to'
-    - '&7increase the amount of enchants'
-    - '&7that can be added onto an item.'
+    - '&7Редкий кристалл, который, как говорят,'
+    - '&7увеличивает количество зачарований,'
+    - '&7которые можно добавить на предмет.'
     - ''
-    - '&eCost: &e&l$500'
+    - '&eЦена: &e&l$500'
   GKitz:
     InGUI: false
     Enabled: true
@@ -93,7 +93,7 @@ Settings:
     Glowing: true
     Name: '&c&lGKitz'
     Lore:
-    - '&b>>&7&nClick to open&b<<'
+    - '&b>>&7&nНажмите, чтобы открыть&b<<'
   ProtectionCrystal:
     InGUI: false
     Slot: 1
@@ -107,20 +107,20 @@ Settings:
     Chance:
       Toggle: false
       Success-Chance: 75
-    Name: '&5&lProtection &b&lCrystal'
+    Name: '&5&lКристалл &b&lЗащиты'
     Lore:
-    - '&7A rare crystal that is said to'
-    - '&7protect items from getting lost'
-    - '&7while the owners away in the after life.'
+    - '&7Редкий кристалл, который, как говорят,'
+    - '&7защищает предметы от потери,'
+    - '&7пока владелец в загробном мире.'
     - ''
-    - '&7&l(&6&l!&7&l) &7Drag and drop on an item.'
-    GUIName: '&5&lProtection &b&lCrystal'
+    - '&7&l(&6&l!&7&l) &7Перетащите на предмет.'
+    GUIName: '&5&lКристалл &b&lЗащиты'
     GUILore:
-    - '&7A rare crystal that is said to'
-    - '&7protect items from getting lost'
-    - '&7while the owners away in the after life.'
+    - '&7Редкий кристалл, который, как говорят,'
+    - '&7защищает предметы от потери,'
+    - '&7пока владелец в загробном мире.'
     - ''
-    - '&eCost: &e&l$500'
+    - '&eЦена: &e&l$500'
   BlackSmith:
     InGUI: true
     Slot: 24
@@ -129,24 +129,24 @@ Settings:
       Namespace: ''
       Key: ''
     Glowing: false
-    Name: '&7&lThe &b&lBlack &9&lSmith'
+    Name: '&7&lЧёрный &b&lКузнец'
     Lore:
-    - '&b>>&7&nClick to open&b<<'
-    GUIName: '&8&lThe Black Smith'
+    - '&b>>&7&nНажмите, чтобы открыть&b<<'
+    GUIName: '&8&lЧёрный Кузнец'
     Results:
       Item:
         Type: BARRIER
         Model:
           Namespace: ''
           Key: ''
-      None: '&c&lNo Results'
+      None: '&c&lНет результатов'
       Not-Found-Lore:
-      - '&7No results could be found.'
-      - '&7Please put in two books of'
-      - '&7the same enchantment and level.'
-      - '&7Or put in two items to combined'
-      - '&7the enchantments on them.'
-      Found: '&c&lCost: &6&l%cost%XP'
+      - '&7Результатов не найдено.'
+      - '&7Положите две книги'
+      - '&7с одинаковым зачарованием и уровнем.'
+      - '&7Или положите два предмета, чтобы объединить'
+      - '&7их зачарования.'
+      Found: '&c&lЦена: &6&l%cost%XP'
     Transaction:
       Currency: XP_Level
       Costs:
@@ -161,9 +161,9 @@ Settings:
       Namespace: ''
       Key: ''
     Glowing: false
-    Name: '&7&lThe &b&lCrazy &9&lTinkerer'
+    Name: '&7&lБезумный &b&lМастеровой'
     Lore:
-    - '&b>>&7&nClick to open&b<<'
+    - '&b>>&7&nНажмите, чтобы открыть&b<<'
   Info:
     InGUI: true
     Slot: 23
@@ -172,20 +172,20 @@ Settings:
       Namespace: ''
       Key: ''
     Glowing: true
-    Name: '&eInfo on the Enchantments'
+    Name: '&eИнформация о зачарованиях'
     Lore:
-    - '&b>>&7&nClick to view&b<<'
+    - '&b>>&7&nНажмите для просмотра&b<<'
   Dust:
     MysteryDust:
       Item: GUNPOWDER
       Model:
         Namespace: ''
         Key: ''
-      Name: '&7Mystery Dust'
+      Name: '&7Загадочная пыль'
       Lore:
-      - '&a1-%percent%% &7will be on a'
-      - '&aMagical AngelDust &7or &eMagical Fixing &7Dust'
-      - '&7&l(&6&l!&7&l) &7Right click'
+      - '&a1-%percent%% &7будет на'
+      - '&aМагической ангельской пыли &7или &eМагической чинящей &7пыли'
+      - '&7&l(&6&l!&7&l) &7Нажмите ПКМ'
       Firework:
         Toggle: true
         Colors: Black, Gray, Lime
@@ -197,41 +197,41 @@ Settings:
         Max: 30
     SuccessDust:
       InGUI: true
-      GUIName: '&aMagical Angel Dust'
+      GUIName: '&aМагическая ангельская пыль'
       GUILore:
       - '&eCost: &a&l$500'
-      - '&7Dust allows you to bring'
-      - '&7up your &aSuccess Rate&7.'
+      - '&7Пыль позволяет повысить'
+      - '&7ваш &aшанс успеха&7.'
       Slot: 25
       Item: SUGAR
       Model:
         Namespace: ''
         Key: ''
-      Name: '&aMagical Angel Dust'
+      Name: '&aМагическая ангельская пыль'
       Lore:
-      - '&a+%percent%% Success Rate'
-      - '&7Apply to an Enchantment Book to'
-      - '&7Increase the Success Rate by &e%percent%%'
+      - '&a+%percent%% к шансу успеха'
+      - '&7Примените к книге зачарования, чтобы'
+      - '&7повысить шанс успеха на &e%percent%%'
       PercentRange:
         Max: 30
         Min: 2
     DestroyDust:
       InGUI: true
-      GUIName: '&eMagical Fixing Dust'
+      GUIName: '&eМагическая чинящая пыль'
       GUILore:
       - '&eCost: &a&l$500'
-      - '&7Dust allows you to bring'
-      - '&7down your &4Destroy Rate&7.'
+      - '&7Пыль позволяет повысить'
+      - '&7снизить ваш &4шанс разрушения&7.'
       Slot: 34
       Item: REDSTONE
       Model:
         Namespace: ''
         Key: ''
-      Name: '&eMagical Fixing Dust'
+      Name: '&eМагическая чинящая пыль'
       Lore:
-      - '&c-%percent%% Destroy Rate'
-      - '&7Apply to an Enchantment Book to'
-      - '&7Decrease the Destroy Rate by &e%percent%%'
+      - '&c-%percent%% к шансу разрушения'
+      - '&7Примените к книге зачарования, чтобы'
+      - '&7снизить шанс разрушения на &e%percent%%'
       PercentRange:
         Max: 10
         Min: 2
@@ -240,32 +240,32 @@ Settings:
       Model:
         Namespace: ''
         Key: ''
-      Name: '&7Failed Dust'
+      Name: '&7Негодная пыль'
       Lore:
-      - '&7This dust has failed.'
-      - '&7It is now useless unless you'
-      - '&7needed to make TNT or a throwable potion.'
+      - '&7Эта пыль не сработала.'
+      - '&7Теперь она бесполезна, если только вам'
+      - '&7не нужно сделать TNT или зелье для броска.'
   BlackScroll:
     Item: INK_SAC
     Model:
       Namespace: ''
       Key: ''
-    Name: '&8&l&nBlack Scroll'
+    Name: '&8&l&nЧёрный свиток'
     Item-Lore:
-    - '&7Have a custom enchantment you don''t want?'
-    - '&7Drag and drop this on an item with a custom enchantment'
-    - '&7and it will remove a random enchantment for you.'
-    - '&7&l(&6&l!&7&l) &7Only works on Custom Enchantments.'
+    - '&7Есть особое зачарование, которое вам не нужно?'
+    - '&7Перетащите свиток на предмет с особым зачарованием,'
+    - '&7и он снимет случайное зачарование.'
+    - '&7&l(&6&l!&7&l) &7Работает только с особыми зачарованиями.'
     Chance-Toggle: false
     Chance: 75
     InGUI: true
-    GUIName: '&7Black Scroll'
+    GUIName: '&7Чёрный свиток'
     Glowing: false
     Slot: 21
     Lore:
-    - '&eCost: &a&l$1000'
-    - '&7Black Scrolls allow you to'
-    - '&7take off random enchantments.'
+    - '&eЦена: &a&l$1000'
+    - '&7Чёрные свитки позволяют'
+    - '&7снимать случайные зачарования.'
     SuccessChance:
       Max: 75
       Min: 35
@@ -277,39 +277,39 @@ Settings:
     Model:
       Namespace: ''
       Key: ''
-    Name: '&e&lWhite Scroll'
+    Name: '&e&lБелый свиток'
     Item-Lore:
-    - '&7Want to protect an item from a book''s destroy rate?'
-    - '&7Drag and drop this on an enchant-able item'
-    - '&7and it will protect the item from the destroy rate.'
+    - '&7Хотите защитить предмет от шанса разрушения книги?'
+    - '&7Перетащите свиток на предмет, который можно зачаровать,'
+    - '&7и он защитит предмет от разрушения.'
     InGUI: true
-    GUIName: '&7White Scroll'
+    GUIName: '&7Белый свиток'
     Glowing: false
     Slot: 30
     Lore:
-    - '&eCost: &a&l$2000'
-    - '&7White Scrolls allow you to'
-    - '&7protect items from breaking.'
+    - '&eЦена: &a&l$2000'
+    - '&7Белые свитки позволяют'
+    - '&7защищать предметы от поломки.'
     ProtectedName: '&b&lPROTECTED'
   TransmogScroll:
     Item: QUARTZ
     Model:
       Namespace: ''
       Key: ''
-    Name: '&d&lTransmog Scroll'
+    Name: '&d&lСвиток трансмогрификации'
     Item-Lore:
-    - '&7This scroll allows you to organize'
-    - '&7your enchantments and tell you how many'
-    - '&7enchantments you currently have on the item.'
+    - '&7Этот свиток упорядочит'
+    - '&7ваши зачарования и покажет, сколько'
+    - '&7зачарований сейчас на предмете.'
     InGUI: false
-    GUIName: '&dTransmog Scroll'
+    GUIName: '&dСвиток трансмогрификации'
     Glowing: false
     Slot: 30
     Lore:
-    - '&eCost: &a&l$200'
-    - '&7This scroll allows you to organize'
-    - '&7your enchantments and tell you how many'
-    - '&7enchantments you currently have on the item.'
+    - '&eЦена: &a&l$200'
+    - '&7Этот свиток упорядочит'
+    - '&7ваши зачарования и покажет, сколько'
+    - '&7зачарований сейчас на предмете.'
     Amount-of-Enchantments: ' &7[&6&n%amount%&7]'
     Amount-Toggle: true
     Count-Vanilla-Enchantments: true
@@ -343,12 +343,12 @@ Settings:
     EXP-Bug: false
     Lightning-Sound-Range: 160
     Ally-Mobs:
-      Wolf: '&b%player%''s Saberwolf'
-      Iron-Golem: '&6%player%''s Golem'
-      Zombie: '&2%player%''s Undead'
-      Endermite: '&5%player%''s Endermite'
-      Silverfish: '&7%player%''s Silverfish'
-      Bee: '&e%player%''s Bee'
+      Wolf: '&bСаблезубый волк игрока %player%'
+      Iron-Golem: '&6Голем игрока %player%'
+      Zombie: '&2Нежить игрока %player%'
+      Endermite: '&5Эндермит игрока %player%'
+      Silverfish: '&7Чешуйница игрока %player%'
+      Bee: '&eПчела игрока %player%'
     Armor-Upgrade:
       Toggle: true
       Enchantment-Break: true

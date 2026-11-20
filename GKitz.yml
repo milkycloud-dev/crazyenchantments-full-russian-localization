@@ -35,32 +35,23 @@ GKitz:
         Namespace: ''
         Key: ''
       Glowing: true
-      Name: '&6&lThe Hero GKit'
+      Name: '&6&lНабор Героя'
       Lore:
-      - '&7A kit that used to be worn'
-      - '&7into battle by a great hero.'
+      - '&7Набор, который когда-то носил'
+      - '&7в бою великий герой.'
       - ''
-      - '&7Cooldown: &624 Hours'
-      - '&7Available in: &6%day%d, %hour%h, %minute%m, %second%s'
-      - '&7&l(&6&l!&7&l) &7Right click to preview'
+      - '&7Перезарядка: &624 часа'
+      - '&7Доступно через: &6%day%д, %hour%ч, %minute%м, %second%с'
+      - '&7&l(&6&l!&7&l) &7ПКМ для предпросмотра'
     Auto-Equip: false
     Cooldown: 24h
     Items:
-    - Item:DIAMOND_HELMET, Amount:1, Name:&6&lHero Helmet, Protection:4, Respiration:3,
-      Thorns:3, Aqua_Affinity:1, Overload:1-5, Hulk:2-5, Glowing:0-1, Implants:0-5,
-      Lore:&aA special helmet worn by a great hero.,&aTake special care of this.
-    - Item:DIAMOND_CHESTPLATE, Amount:1, Name:&6&lHero Chestplate, Protection:4, Thorns:3,
-      Overload:0-5, Hulk:2-5, Lore:&aA special chestplate worn by a great hero.,&aTake
-      special care of this.
-    - Item:DIAMOND_LEGGINGS, Amount:1, Name:&6&lHero Leggings, Protection:4, Thorns:3,
-      Overload:0-5, Hulk:2-5, Lore:&aA special leggings worn by a great hero.,&aTake
-      special care of this.
-    - Item:DIAMOND_BOOTS, Amount:1, Name:&6&lHero Boots, Protection:4, Thorns:3, Overload:0-5,
-      Hulk:2-5, Gears:0-3, Rocket:1, Anti-Gravity:0-5, Lore:&aA special boots worn
-      by a great hero.,&aTake special care of this.
+    - Item:DIAMOND_HELMET, Amount:1, Name:&6&lШлем Героя, Protection:4, Respiration:3, Thorns:3, Aqua_Affinity:1, Overload:1-5, Hulk:2-5, Glowing:0-1, Implants:0-5, Lore:&aОсобый шлем великого героя.,&aБерегите это.
+    - Item:DIAMOND_CHESTPLATE, Amount:1, Name:&6&lНагрудник Героя, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Lore:&aОсобый нагрудник великого героя.,&aБерегите это.
+    - Item:DIAMOND_LEGGINGS, Amount:1, Name:&6&lПоножи Героя, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Lore:&aОсобые поножи великого героя.,&aБерегите это.
+    - Item:DIAMOND_BOOTS, Amount:1, Name:&6&lБотинки Героя, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Gears:0-3, Rocket:1, Anti-Gravity:0-5, Lore:&aОсобые ботинки великого героя.,&aБерегите это.
     Fake-Items:
-    - Item:BOOK, Amount:1, Name:&b&lOverLoad V, Lore:&7Gives health boost,&7when you
-      put it on.,
+    - Item:BOOK, Amount:1, Name:&b&lПерегрузка V, Lore:&7Повышает здоровье,&7когда вы его надеваете.,
     Commands:
     - ce book overload 5 1 %Player%
   PeaceKeeper:
@@ -71,32 +62,23 @@ GKitz:
         Namespace: ''
         Key: ''
       Glowing: true
-      Name: '&9&lThe Peace Keeper GKit'
+      Name: '&9&lНабор Миротворца'
       Lore:
-      - '&7A kit that used to be worn'
-      - '&7into battle by a peace keeper.'
+      - '&7Набор, который когда-то носил'
+      - '&7в бою миротворец.'
       - ''
-      - '&7Cooldown: &624 Hours'
-      - '&7Available in: &6%day%d, %hour%h, %minute%m, %second%s'
-      - '&7&l(&9&l!&7&l) &7Right click to preview'
+      - '&7Перезарядка: &624 часа'
+      - '&7Доступно через: &6%day%д, %hour%ч, %minute%м, %second%с'
+      - '&7&l(&9&l!&7&l) &7ПКМ для предпросмотра'
     Auto-Equip: false
     Cooldown: 24h
     Items:
-    - Item:DIAMOND_HELMET, Amount:1, Name:&9&lPeace Keeper Helmet, Protection:4, Respiration:3,
-      Thorns:3, Aqua_Affinity:1, Overload:1-5, Hulk:2-5, Glowing:0-1, Implants:0-5,
-      Lore:&9A special helmet worn by a peace keeper.,&9Take special care of this.
-    - Item:DIAMOND_CHESTPLATE, Amount:1, Name:&9&lPeace Keeper Chestplate, Protection:4,
-      Thorns:3, Overload:0-5, Hulk:2-5, Lore:&9A special chestplate worn by a peace
-      keeper.,&9Take special care of this.
-    - Item:DIAMOND_LEGGINGS, Amount:1, Name:&9&lPeace Keeper Leggings, Protection:4,
-      Thorns:3, Overload:0-5, Hulk:2-5, Lore:&9A special leggings worn by a peace
-      keeper.,&9Take special care of this.
-    - Item:DIAMOND_BOOTS, Amount:1, Name:&9&lPeace Keeper Boots, Protection:4, Thorns:3,
-      Overload:0-5, Hulk:2-5, Gears:0-3, Rocket:1, Anti-Gravity:0-5, Lore:&9A special
-      boots worn by a peace keeper.,&9Take special care of this.
+    - Item:DIAMOND_HELMET, Amount:1, Name:&9&lШлем Миротворца, Protection:4, Respiration:3, Thorns:3, Aqua_Affinity:1, Overload:1-5, Hulk:2-5, Glowing:0-1, Implants:0-5, Lore:&9Особый шлем миротворца.,&9Берегите это.
+    - Item:DIAMOND_CHESTPLATE, Amount:1, Name:&9&lНагрудник Миротворца, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Lore:&9Особый нагрудник миротворца.,&9Берегите это.
+    - Item:DIAMOND_LEGGINGS, Amount:1, Name:&9&lПоножи Миротворца, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Lore:&9Особые поножи миротворца.,&9Берегите это.
+    - Item:DIAMOND_BOOTS, Amount:1, Name:&9&lБотинки Миротворца, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Gears:0-3, Rocket:1, Anti-Gravity:0-5, Lore:&9Особые ботинки миротворца.,&9Берегите это.
     Fake-Items:
-    - Item:BOOK, Amount:1, Name:&b&lOverLoad V, Lore:&7Gives health boost,&7when you
-      put it on.,
+    - Item:BOOK, Amount:1, Name:&b&lПерегрузка V, Lore:&7Повышает здоровье,&7когда вы его надеваете.,
     Commands:
     - ce book overload 5 1 %Player%
   Villain:
@@ -107,31 +89,22 @@ GKitz:
         Namespace: ''
         Key: ''
       Glowing: true
-      Name: '&4&lThe Villain GKit'
+      Name: '&4&lНабор Злодея'
       Lore:
-      - '&7A kit that used to be worn'
-      - '&7into battle by an evil villain.'
+      - '&7Набор, который когда-то носил'
+      - '&7в бою злой злодей.'
       - ''
-      - '&7Cooldown: &624 Hours'
-      - '&7Available in: &6%day%d, %hour%h, %minute%m, %second%s'
-      - '&7&l(&4&l!&7&l) &7Right click to preview'
+      - '&7Перезарядка: &624 часа'
+      - '&7Доступно через: &6%day%д, %hour%ч, %minute%м, %second%с'
+      - '&7&l(&4&l!&7&l) &7ПКМ для предпросмотра'
     Auto-Equip: false
     Cooldown: 24h
     Items:
-    - Item:DIAMOND_HELMET, Amount:1, Name:&4&lVillain Helmet, Protection:4, Respiration:3,
-      Thorns:3, Aqua_Affinity:1, Overload:1-5, Hulk:2-5, Glowing:0-1, Implants:0-5,
-      Lore:&cA special helmet worn by a evil villain.,&cTake special care of this.
-    - Item:DIAMOND_CHESTPLATE, Amount:1, Name:&4&lVillain Chestplate, Protection:4,
-      Thorns:3, Overload:0-5, Hulk:2-5, Lore:&cA special chestplate worn by a evil
-      villain.,&cTake special care of this.
-    - Item:DIAMOND_LEGGINGS, Amount:1, Name:&4&lVillain Leggings, Protection:4, Thorns:3,
-      Overload:0-5, Hulk:2-5, Lore:&cA special leggings worn by a evil villain.,&cTake
-      special care of this.
-    - Item:DIAMOND_BOOTS, Amount:1, Name:&4&lVillain Boots, Protection:4, Thorns:3,
-      Overload:0-5, Hulk:2-5, Gears:0-3, Rocket:1, Anti-Gravity:0-5, Lore:&cA special
-      boots worn by a evil villain.,&cTake special care of this.
+    - Item:DIAMOND_HELMET, Amount:1, Name:&4&lШлем Злодея, Protection:4, Respiration:3, Thorns:3, Aqua_Affinity:1, Overload:1-5, Hulk:2-5, Glowing:0-1, Implants:0-5, Lore:&cОсобый шлем злого злодея.,&cБерегите это.
+    - Item:DIAMOND_CHESTPLATE, Amount:1, Name:&4&lНагрудник Злодея, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Lore:&cОсобый нагрудник злого злодея.,&cБерегите это.
+    - Item:DIAMOND_LEGGINGS, Amount:1, Name:&4&lПоножи Злодея, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Lore:&cОсобые поножи злого злодея.,&cБерегите это.
+    - Item:DIAMOND_BOOTS, Amount:1, Name:&4&lБотинки Злодея, Protection:4, Thorns:3, Overload:0-5, Hulk:2-5, Gears:0-3, Rocket:1, Anti-Gravity:0-5, Lore:&cОсобые ботинки злого злодея.,&cБерегите это.
     Fake-Items:
-    - Item:BOOK, Amount:1, Name:&b&lOverLoad V, Lore:&7Gives health boost,&7when you
-      put it on.,
+    - Item:BOOK, Amount:1, Name:&b&lПерегрузка V, Lore:&7Повышает здоровье,&7когда вы его надеваете.,
     Commands:
     - ce book overload 5 1 %Player%

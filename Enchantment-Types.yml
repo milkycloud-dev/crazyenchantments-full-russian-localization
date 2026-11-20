@@ -25,16 +25,16 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 1
-      Name: '&e&lHelmet Enchantments'
+      Name: '&e&lЗачарования шлемов'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Leather Helmet'
-      - '&a- Chain Helmet'
-      - '&a- Gold Helmet'
-      - '&a- Iron Helmet'
-      - '&a- Diamond Helmet'
-      - '&a- Netherite Helmet'
-      - '&a- Turtle Helmet'
+      - '&7Можно зачаровать:'
+      - '&a- Кожаный шлем'
+      - '&a- Кольчужный шлем'
+      - '&a- Золотой шлем'
+      - '&a- Железный шлем'
+      - '&a- Алмазный шлем'
+      - '&a- Незеритовый шлем'
+      - '&a- Панцирь черепахи'
     Enchantable-Items:
     - LEATHER_HELMET
     - CHAINMAIL_HELMET
@@ -50,15 +50,15 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 2
-      Name: '&e&lBoot Enchantments'
+      Name: '&e&lЗачарования ботинок'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Leather Boots'
-      - '&a- Chain Boots'
-      - '&a- Gold Boots'
-      - '&a- Iron Boots'
-      - '&a- Diamond Boots'
-      - '&a- Netherite Boots'
+      - '&7Можно зачаровать:'
+      - '&a- Кожаные ботинки'
+      - '&a- Кольчужные ботинки'
+      - '&a- Золотые ботинки'
+      - '&a- Железные ботинки'
+      - '&a- Алмазные ботинки'
+      - '&a- Незеритовые ботинки'
     Enchantable-Items:
     - LEATHER_BOOTS
     - CHAINMAIL_BOOTS
@@ -73,15 +73,15 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 3
-      Name: '&e&lArmor Enchantments'
+      Name: '&e&lЗачарования брони'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Leather Armor'
-      - '&a- Chain Armor'
-      - '&a- Gold Armor'
-      - '&a- Iron Armor'
-      - '&a- Diamond Armor'
-      - '&a- Netherite Armor'
+      - '&7Можно зачаровать:'
+      - '&a- Кожаная броня'
+      - '&a- Кольчужная броня'
+      - '&a- Золотая броня'
+      - '&a- Железная броня'
+      - '&a- Алмазная броня'
+      - '&a- Незеритовая броня'
     Enchantable-Items:
     - LEATHER_HELMET
     - CHAINMAIL_HELMET
@@ -115,10 +115,10 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 4
-      Name: '&e&lBow Enchantments'
+      Name: '&e&lЗачарования луков'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Bow'
+      - '&7Можно зачаровать:'
+      - '&a- Лук'
     Enchantable-Items:
     - BOW
   Sword:
@@ -128,15 +128,15 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 5
-      Name: '&e&lSword Enchantments'
+      Name: '&e&lЗачарования мечей'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Wooden Sword'
-      - '&a- Stone Sword'
-      - '&a- Gold Sword'
-      - '&a- Iron Sword'
-      - '&a- Diamond Sword'
-      - '&a- Netherite Sword'
+      - '&7Можно зачаровать:'
+      - '&a- Деревянный меч'
+      - '&a- Каменный меч'
+      - '&a- Золотой меч'
+      - '&a- Железный меч'
+      - '&a- Алмазный меч'
+      - '&a- Незеритовый меч'
     Enchantable-Items:
     - WOODEN_SWORD
     - STONE_SWORD
@@ -151,15 +151,15 @@ Types:
       Model:
         Namespace: ''
         Key: ''
-      Name: '&e&lAxe Enchantments'
+      Name: '&e&lЗачарования топоров'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Wooden Axe'
-      - '&a- Stone Axe'
-      - '&a- Iron Axe'
-      - '&a- Golden Axe'
-      - '&a- Diamond Axe'
-      - '&a- Netherite Axe'
+      - '&7Можно зачаровать:'
+      - '&a- Деревянный топор'
+      - '&a- Каменный топор'
+      - '&a- Железный топор'
+      - '&a- Золотой топор'
+      - '&a- Алмазный топор'
+      - '&a- Незеритовый топор'
     Enchantable-Items:
     - WOODEN_AXE
     - STONE_AXE
@@ -174,15 +174,15 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 7
-      Name: '&e&lHoe Enchantments'
+      Name: '&e&lЗачарования мотыг'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Wooden Hoe'
-      - '&a- Stone Hoe'
-      - '&a- Gold Hoe'
-      - '&a- Iron Hoe'
-      - '&a- Diamond Hoe'
-      - '&a- Netherite Hoe'
+      - '&7Можно зачаровать:'
+      - '&a- Деревянная мотыга'
+      - '&a- Каменная мотыга'
+      - '&a- Золотая мотыга'
+      - '&a- Железная мотыга'
+      - '&a- Алмазная мотыга'
+      - '&a- Незеритовая мотыга'
     Enchantable-Items:
     - WOODEN_HOE
     - STONE_HOE
@@ -197,15 +197,15 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 8
-      Name: '&e&lPickaxe Enchantments'
+      Name: '&e&lЗачарования кирок'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Wooden Pickaxe'
-      - '&a- Stone Pickaxe'
-      - '&a- Gold Pickaxe'
-      - '&a- Iron Pickaxe'
-      - '&a- Diamond Pickaxe'
-      - '&a- Netherite Pickaxe'
+      - '&7Можно зачаровать:'
+      - '&a- Деревянная кирка'
+      - '&a- Каменная кирка'
+      - '&a- Золотая кирка'
+      - '&a- Железная кирка'
+      - '&a- Алмазная кирка'
+      - '&a- Незеритовая кирка'
     Enchantable-Items:
     - WOODEN_PICKAXE
     - STONE_PICKAXE
@@ -220,14 +220,14 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 9
-      Name: '&e&lTool Enchantments'
+      Name: '&e&lЗачарования инструментов'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- All Pickaxes'
-      - '&a- All Axes'
-      - '&a- All Shovels'
-      - '&a- All Hoes'
-      - '&a- Shears'
+      - '&7Можно зачаровать:'
+      - '&a- Все кирки'
+      - '&a- Все топоры'
+      - '&a- Все лопаты'
+      - '&a- Все мотыги'
+      - '&a- Ножницы'
     Enchantable-Items:
     - WOODEN_PICKAXE
     - STONE_PICKAXE
@@ -261,14 +261,14 @@ Types:
         Namespace: ''
         Key: ''
       Slot: 14
-      Name: '&e&lDamaged Item Enchantments'
+      Name: '&e&lЗачарования повреждённых предметов'
       Lore:
-      - '&7Enchantable Items:'
-      - '&a- Fishing Rods.'
-      - '&a- Shears'
-      - '&a- All Tools'
-      - '&a- All Armor'
-      - '&a- All Weapons'
+      - '&7Можно зачаровать:'
+      - '&a- Удочки.'
+      - '&a- Ножницы'
+      - '&a- Все инструменты'
+      - '&a- Вся броня'
+      - '&a- Всё оружие'
     Enchantable-Items:
     - WOODEN_PICKAXE
     - STONE_PICKAXE

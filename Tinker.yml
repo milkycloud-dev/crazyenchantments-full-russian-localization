@@ -13,10 +13,10 @@ Settings:
     Model:
       Namespace: ''
       Key: ''
-    Name: '&aRecycled XP'
+    Name: '&aПереработанный опыт'
     Lore:
-    - '&a&lRecycled &6%total%XP'
-    - '&7&l(&6&l!&7&l) &7Throw to get XP.'
+    - '&a&lПереработано &6%total%XP'
+    - '&7&l(&6&l!&7&l) &7Бросьте, чтобы получить опыт.'
 Tinker:
   Vanilla-Enchantments:
     PROTECTION_ENVIRONMENTAL: 24, 1
