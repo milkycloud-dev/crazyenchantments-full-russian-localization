@@ -199,7 +199,7 @@ Settings:
       InGUI: true
       GUIName: '&aМагическая ангельская пыль'
       GUILore:
-      - '&eCost: &a&l$500'
+      - '&eЦена: &a&l$500'
       - '&7Пыль позволяет повысить'
       - '&7ваш &aшанс успеха&7.'
       Slot: 25
@@ -219,7 +219,7 @@ Settings:
       InGUI: true
       GUIName: '&eМагическая чинящая пыль'
       GUILore:
-      - '&eCost: &a&l$500'
+      - '&eЦена: &a&l$500'
       - '&7Пыль позволяет повысить'
       - '&7снизить ваш &4шанс разрушения&7.'
       Slot: 34
@@ -444,7 +444,7 @@ Categories:
     Slot: 31
     InGUI: true
     Lore:
-    - '&eCost: &6&l20 &6XP Levels'
+    - '&eЦена: &6&l20 &6уровней опыта'
     Item: LIME_STAINED_GLASS_PANE
     Model:
       Namespace: ''
@@ -468,7 +468,7 @@ Categories:
       - '&7But no one has tried to clean the books yet.'
       - '&7Will you be the one to clean the books?'
       - ''
-      - '&c&lCost: &6&l$1000'
+      - '&c&lЦена: &6&l$1000'
       Cost: 1000
       Currency: Vault
       FireworkToggle: true
@@ -491,7 +491,7 @@ Categories:
     Slot: 32
     InGUI: true
     Lore:
-    - '&eCost: &6&l40 &6XP Levels'
+    - '&eЦена: &6&l40 &6уровней опыта'
     Item: BLUE_STAINED_GLASS_PANE
     Model:
       Namespace: ''
@@ -515,7 +515,7 @@ Categories:
       - '&7But no one has tried to clean the books yet.'
       - '&7Will you be the one to clean the books?'
       - ''
-      - '&c&lCost: &6&l$2000'
+      - '&c&lЦена: &6&l$2000'
       Cost: 2000
       Currency: Vault
       FireworkToggle: true
@@ -538,7 +538,7 @@ Categories:
     Slot: 33
     InGUI: true
     Lore:
-    - '&eCost: &6&l60 &6XP Levels'
+    - '&eЦена: &6&l60 &6уровней опыта'
     Item: RED_STAINED_GLASS_PANE
     Model:
       Namespace: ''
@@ -562,7 +562,7 @@ Categories:
       - '&7But no one has tried to clean the books yet.'
       - '&7Will you be the one to clean the books?'
       - ''
-      - '&c&lCost: &6&l$3000'
+      - '&c&lЦена: &6&l$3000'
       Cost: 3000
       Currency: Vault
       FireworkToggle: true
@@ -585,7 +585,7 @@ Categories:
     Slot: 41
     InGUI: true
     Lore:
-    - '&eCost: &6&l120 &6XP Levels'
+    - '&eЦена: &6&l120 &6уровней опыта'
     Item: AMETHYST_CLUSTER
     Model:
       Namespace: ''
@@ -609,7 +609,7 @@ Categories:
       - '&7But no one has tried to clean the books yet.'
       - '&7Will you be the one to clean the books?'
       - ''
-      - '&c&lCost: &6&l$10000'
+      - '&c&lЦена: &6&l$10000'
       Cost: 10000
       Currency: Vault
       FireworkToggle: true
